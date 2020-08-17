@@ -1,0 +1,278 @@
+/* =================================================================================== */
+
+
+/* Start Grid System  */
+
+
+/* Small Devices */
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+/* Medium Devices */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+
+/* Desktops Devices */
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+/* Larg Screen */
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+/*==================================================================================*/
+
+@media (max-width: 1199px) {
+    html,
+    body {
+        overflow: auto;
+    }
+    .wrap {
+        background-position: 29vw -22vw;
+    }
+    .navbar .links-container .toggle-menu {
+        display: inline-block;
+    }
+    .navbar .allLinks {
+        display: none;
+    }
+    .navbar .allLinks.open {
+        display: block;
+        background-color: #eb6282;
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        top: 90px;
+        left: 0;
+        border-radius: 5px;
+        text-align: left;
+        transition: display 0.2s ease-in-out;
+        -webkit-transition: display 0.2s ease-in-out;
+        -moz-transition: display 0.2s ease-in-out;
+        -ms-transition: display 0.2s ease-in-out;
+        -o-transition: display 0.2s ease-in-out;
+    }
+    .navbar .allLinks.open li {
+        display: block;
+    }
+    .navbar .allLinks.open li a {
+        font-size: 20px;
+    }
+    .navbar .searchContainer {
+        float: left;
+        width: 100%;
+    }
+    /* Content*/
+    .content .left h1 {
+        font-size: 38px;
+        font-weight: bold;
+        margin: 50px 0;
+        line-height: 50px;
+    }
+    .content .right h2 {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 70px;
+        float: right;
+        margin-top: 65px;
+    }
+    .content .left form {
+        width: 475px;
+    }
+    .content .form-group input,
+    .content .form-select button {
+        font-size: 16px;
+    }
+    .content .right img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 999px) {
+    .wrap {
+        background-position: -8vw -12vw;
+    }
+    .navbar .allLinks.open li a {
+        font-size: 17px;
+    }
+    .navbar input[type=text] {
+        font-size: 16px;
+    }
+    .content .left {
+        width: 100%;
+    }
+    .content .right {
+        width: 100%;
+        margin-top: 0;
+        overflow: hidden;
+    }
+    .content .left h1 {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 40px 0;
+        line-height: 50px;
+    }
+    .content .left form {
+        width: 100%;
+    }
+    .content .form-group input,
+    .content .form-select button {
+        font-size: 14px;
+    }
+    .content .right h2 {
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 65px;
+        float: left;
+        margin-top: 45px;
+        width: 100%;
+        margin: 20px auto 0;
+    }
+    .content .right h4 {
+        float: left;
+        font-size: 28px;
+        width: 100%;
+    }
+    .content .right img {
+        width: 65%;
+    }
+    .hello h3 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrap {
+        background-position: -10vw -3vw;
+    }
+    .navbar .allLinks.open li a {
+        font-size: 15px;
+    }
+    .navbar .searchContainer {
+        float: left;
+        width: 70%;
+        margin: auto;
+        clear: both;
+    }
+    .navbar input[type=text] {
+        padding: 7px;
+        font-size: 16px;
+    }
+    .navbar .searchContainer button {
+        padding: 7px;
+    }
+    .content .left,
+    .content .right {
+        text-align: center;
+        clear: both;
+    }
+    .content .left form {
+        margin: auto;
+        width: 70%;
+    }
+    .content .left h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .content .form-group input,
+    .content .form-select button {
+        margin-bottom: 30px;
+    }
+    .content .form-select {
+        width: 100%;
+    }
+    .content .right h2 {
+        font-size: 30px;
+        margin: 0;
+        line-height: 48px;
+    }
+    .content .right h4 {
+        font-size: 24px;
+    }
+    .content .d-no {
+        display: block;
+    }
+    .content .d-yes {
+        display: none;
+    }
+    .content .right img {
+        width: 60%;
+    }
+    .hello h3 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .wrap {
+        background-position: -34vw -16vw
+    }
+    .navbar .allLinks.open li a {
+        font-size: 13px;
+    }
+    .content .left h1 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 40px 0;
+        line-height: 24px;
+    }
+    .content .right h2 {
+        line-height: 24px;
+        font-size: 20px;
+    }
+    .content .right h4 {
+        line-height: 24px;
+        font-size: 20px;
+    }
+    .content .right img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .wrap {
+        background-position: -42vw -6vw
+    }
+    .content .form-group input,
+    .content .form-select button {
+        font-size: 12px;
+    }
+    .content .right img {
+        width: 40%;
+    }
+}
+
+
+/* @media (max-width: 300px) {
+    .wrap {
+        background-position: -100vw -10vw
+    }
+} */
+
+
+/* End Grid System  */
+
+
+/* =================================================================================== */
